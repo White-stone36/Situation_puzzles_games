@@ -1,6 +1,5 @@
-# 🐢🌻海龟汤 SituationPuzzlesGames🐢🌻(中文|英文)
+# 🐢🌻海龟汤 SituationPuzzlesGames🐢🌻(中文)
 
-https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white
 
 ## 🌟 引子
 
@@ -62,7 +61,6 @@ https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logo
 ### 初始化
 
 模型随机生成海龟汤谜题，玩家可以发挥自己想象力进行各种可能性的提问。
-
 
 
 ### 总结线索
