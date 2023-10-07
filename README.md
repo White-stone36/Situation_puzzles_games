@@ -61,13 +61,15 @@
 ### 初始化
 
 模型随机生成海龟汤谜题，玩家可以发挥自己想象力进行各种可能性的提问。
+<img src="./screenshot1.png" alt="Childhood 2" width="500">
 
 
 ### 总结线索
-
+<img src="./screenshot2.png" alt="Childhood 2" width="500">
 
 ### 寻求提示
 
+<img src="./screenshot3.png" alt="Childhood 2" width="500">
 
 
 ## 📜 协议
@@ -80,7 +82,7 @@
 
 ## Special Thanks
 
-- 感谢陈财猫的[人生重来模拟器](https://github.com/EmbraceAGI/LifeReloaded)，让一个啥也不懂甚至都不会写代码的小白认识到原来prompt还可以这么玩。
+- 非常感谢陈财猫的[人生重来模拟器](https://github.com/EmbraceAGI/LifeReloaded)，让一个啥也不懂甚至都不会写代码的小白认识到原来prompt还可以这么玩。
 - 感谢“南瓜博士”，她的很多篇公众号文章都很值得了解学习。
 - 感谢社群里大家的奇思妙想及各种建议，让我学到了很多。
 
