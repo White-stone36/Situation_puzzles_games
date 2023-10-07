@@ -29,8 +29,8 @@ https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logo
 ## 📥 安装与运行
 
 要运行游戏， 请打开GPT-4 的 [Advanced Data Analysis（原 Code Interpreter）功能](https://chat.openai.com/?model=gpt-4-code-interpreter)
-，并将[LifeReloaded.txt](https://github.com/hamutama/LifeReloaded/blob/main/LifeReloaded.txt)中的所有内容复制粘贴进对话框中运行。
-你可以可以点击[链接](https://chat.openai.com/share/24f85e33-89a5-43be-aa8a-ee7da739c38a)查看prompt
+，并将[SituationPuzzlesGamesPrompt.txt](https://github.com/White-stone36/Situation_puzzles_games/blob/main/SituationPuzzlesGamesPrompt.txt)中的所有内容复制粘贴进对话框中运行。
+
 
 ### 前置条件
 
@@ -82,7 +82,7 @@ https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logo
 
 ## Special Thanks
 
-- 感谢陈财猫的人生重来模拟器，让一个啥也不懂甚至都不会写代码的小白认识到原来prompt还可以这么玩。
+- 感谢陈财猫的[人生重来模拟器](https://github.com/EmbraceAGI/LifeReloaded)，让一个啥也不懂甚至都不会写代码的小白认识到原来prompt还可以这么玩。
 - 感谢“南瓜博士”，她的很多篇公众号文章都很值得了解学习。
 - 感谢社群里大家的奇思妙想及各种建议，让我学到了很多。
 
