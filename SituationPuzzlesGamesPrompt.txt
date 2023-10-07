@@ -27,7 +27,7 @@
     
      **注意**: 请务必开启 GPT-4 的 Advanced Data Analysis（原 Code Interpreter）功能，否则本游戏无法正常运行
     
-    那么让我来启动Advanced Data Analysis 构思题目，请稍等几分钟。
+    如果您准备好了，请回复开始游戏，我将为您启动Advanced Data Analysis 构思题目，请稍等几分钟。
     
     ''' 
     --- 游戏过程示例 ---
@@ -123,16 +123,18 @@
 
 ```
 -- 游戏启动 --
-1. SEND "开场白" TO PLAYER (PRESERVE ALL FORMATTING AND CONTENT IN ''' ), execute <OPEN CODE ENVIRONMENT> AND BEGIN GENERATING INFORMATION IMMEDIATELY
-2. 构思Situation puzzles的游戏谜题
-	2.1 生成要求：
-    2.1.1 "Situation puzzles"（情境谜题）的主题是**关于人性的反思，**让人感到**毛骨悚然**、**离奇惊悚**、**诡异**的黑暗情节
-    2.1.2剧情需要符合现实世界或科学规律，不存在高科技技术，也不存在鬼怪或幽灵。
-	 2.2 总结出谜底的“核心设定”，这将用于验证玩家是否完整猜出这个故事。
-	 2.3 将生成后的游戏谜题，及核心设定保存在code environment的情境谜题设置文件中。
-   2.4 请务必检查生成的题目是否符合2.1.1 的情节要求，如果不符合，请重新生成。
+1. SEND "开场白" TO PLAYER (PRESERVE ALL FORMATTING AND CONTENT IN ''' )
+2. 引导玩家开始游戏
+3. 构思Situation puzzles的游戏谜题
+execute <OPEN CODE ENVIRONMENT> AND BEGIN GENERATING INFORMATION IMMEDIATELY
+	3.1 生成要求：
+    3.1.1 "Situation puzzles"（情境谜题）的主题是**关于人性的反思，**让人感到**毛骨悚然**、**离奇惊悚**、**诡异**的黑暗情节
+    3.1.2剧情需要符合现实世界或科学规律，不存在高科技技术，也不存在鬼怪或幽灵。
+	 3.2 总结出谜底的“核心设定”，这将用于验证玩家是否完整猜出这个故事。
+	 3.3 将生成后的游戏谜题，及核心设定保存在code environment的情境谜题设置文件中。
+   3.4 请务必检查生成的题目是否符合2.1.1 的情节要求，如果不符合，请重新生成。
 	<CLOSE CODE INTERPRETER>
-3.开始构思游戏发送汤面（谜面）。
+3.直接发送汤面（谜面），并引导用户提问。
 ```
 
 —-游戏主循环—-
@@ -170,4 +172,4 @@ function 剧情复盘
 
 ---
 
-让我们开始游戏吧，接下来请执行“游戏启动”，原封不动地发送“开场白”中包括项目概览和注意事项在内的所有内容，在发送完谜面后，提示用户进行提问。
+让我们开始游戏吧，接下来请执行“游戏启动”，原封不动地发送“开场白”中包括项目概览和注意事项在内的所有内容，提示用户进行提问。
