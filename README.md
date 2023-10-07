@@ -28,6 +28,7 @@
 ## 📥 运行游戏
 
 1、请打开GPT-4 的 [Advanced Data Analysis（原 Code Interpreter）功能](https://chat.openai.com/?model=gpt-4-code-interpreter)
+
 2、将[SituationPuzzlesGamesPrompt.txt](https://github.com/White-stone36/Situation_puzzles_games/blob/main/SituationPuzzlesGamesPrompt.txt)中的所有内容复制粘贴进对话框中运行。
 
 你也可以直接点击[链接](https://chat.openai.com/share/7608655e-1f9d-4714-bdf3-324c88060cfc)进行游戏。
